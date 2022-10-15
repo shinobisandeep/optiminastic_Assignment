@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA=Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assginment Dashboard</title>
+    <!-----CSS Import-->
+    <link rel="stylesheet" href="style.css" />
+    <!-----Boxicons css Import-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="logo.png" alt="logo" />
+          </span>
+          <div class="text header-text">
+            <span class="logo">Logo</span>
+          </div>
+        </div>
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu-icon">
+          <i class="bx bx-menu icon HideMenu"> </i>
+          <li><button class="btnHide">Hide Menu</button></li>
+        </div>
+        <div class="menu close">
+          <ul class="menu-links">
+            <li class="Dashboard">
+              <a href="#">
+                <i class="bx bxs-tachometer icon"></i>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+            </li>
+
+            <li class="Projects">
+              <a href="#">
+                <i class="bx bx-notepad icon"></i>
+                <span class="text nav-text">Projects</span>
+              </a>
+            </li>
+
+            <li class="Projects">
+              <a href="#">
+                <i class="bx bxs-wallet-alt icon"></i>
+                <span class="text nav-text">Earnings</span>
+              </a>
+            </li>
+
+            <li class="Projects">
+              <a href="#">
+                <i class="bx bxs-cog icon"></i>
+                <span class="text nav-text">Profile</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="support">
+          <span class="text nav-text support">Support</span>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="main-section">
+      <div class="nameheader">
+        <span class="profileText">Sandeep</span>
+        <img class="ProfilePicture" src="OIP.jpg" alt="myimage" />
+      </div>
+      <div class="main-tabs">
+        <div>
+            <button class="button-tab1 tab active"  id="My_Projects" onclick="openTab('My_Projects')">My Projects(<span id="cardcount"></span>)</button>
+            <button class="button-tab2 tab" id="Explore" onclick="openTab('Explore')">Explore</button>
+          </div>
+<div>
+    <input type="text">
+</div>
+    </div>
+      <div class="main-body">
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardHeading">
+            <div class="cardlogo">
+              <img class="cardHeading-img" src="OIP (1).jpg" alt="" />
+              <span class="cardHeading-name">Oyo</span>
+            </div>
+            <button class="cardHeadingBtn">Submit Work</button>
+          </div>
+          <div class="cardBody">Diwali Campaign</div>
+          <div class="cardFooter">
+            <div class="leftContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit quas
+              ipsum...
+            </div>
+            <div class="rightContent">&#X20B9;25000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script> function carCount(){
+        var x= document.getElementsByClassName("card");
+       document.getElementById("cardcount").innerHTML=x.length;
+      }
+      carCount();
+      </script>
+  </body>
+</html>

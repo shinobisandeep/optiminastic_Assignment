@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body-color:#e3c4ef;
+    --sidebar-color:rgb(85, 20, 142);
+    --primary-color:#695CFE;
+    --primary-color-light: #a59ee6;
+    --toggle-color: #DDD;
+    --text-color:#faf7f7;
+
+    --tran-02: all 0.2s ease ;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+body{
+    height: 100vh;
+   display: flex;
+    background: var(--body-color);
+    overflow: hidden;
+
+}
+
+/* sidebartext */
+.sidebar .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+    transition: var(--tran-04);
+    white-space: nowrap;
+}
+.sidebar .image{
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+}
+.sidebar.close .text{
+  display: none;
+}
+.sidebar.close .btnHide{
+    display: none;
+  }
+  .menu.close .menu-links{
+    display: none;
+  }
+/* sidebar */
+.sidebar{
+ 
+  
+    width: 250px;
+    background: var(--sidebar-color);
+    padding: 10px 14px;
+    background: var(--sidebar-color);
+}
+
+.sidebar.close{
+    width: 78px; ;
+}
+.sidebar li{
+    height: 50px;
+    background: var(  --sidebar-color);
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    font-size: 20px;
+}
+.sidebar li .icon,
+.sidebar li .text{
+    color: var(--text-color);
+    transition: var(--tran-02);
+}
+.sidebar header{
+    position: relative;
+}
+.sidebar .image-text img{
+    width: 40px;
+    border-radius: 6px;
+
+}
+
+.sidebar header .image-text{
+    display: flex;
+    align-items: center;
+}
+
+header .image-text .header-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text .logo{
+    font-weight: 600;
+}
+
+.sidebar header .toggle{
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    height: 25px;
+    width: 25px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--sidebar-color);
+    font-size: 22px;
+}
+.HideMenu{
+   margin-top: 40px;
+   padding-bottom: 30px;
+   min-width: 50px;
+   color: white;
+}
+
+.sidebar .Dashboard{
+    background: var(--primary-color-light);
+    border-radius: 6px;
+}
+
+.sidebar .Projects{
+    background: var(--primary-color-light);
+    border-radius: 6px;
+}
+.sidebar li a{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: var(--tran-04);
+}
+
+.sidebar li a:hover{
+    background: var(--primary-color);
+}
+.sidebar li a:hover .icon,
+.sidebar li a:hover .text{
+    color: var(--sidebar-color);
+}
+.support{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.sidebar .menu-bar{
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+   
+}
+.btnHide{
+ 
+    text-decoration: none;
+    color: white;
+    background-color: var(--sidebar-color);
+    border: 0;
+    padding-bottom: 2px;
+}
+
+.menu-icon{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.ProfilePicture{
+    border-radius: 50%;
+    max-width: 30px;
+    min-height: 30px;
+}
+
+.profileText{
+    padding: 5px 0px;
+    margin-right: 10px;
+}
+.nameheader{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    padding: 20px;
+}
+.main-section{
+    width: 100%;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+    
+}
+/* 
+'card styel 
+*/
+.cardHeading-img{
+    border-radius: 50%;
+    max-width: 30px;
+    min-height: 30px;
+}
+.cardHeadingBtn{
+    padding: 3px;
+    background: none;
+    border: 2px solid green ;
+    color: green;
+    border-radius: 5px;
+}
+
+.cardlogo{
+    display: flex;
+    align-items: center;
+
+   
+}
+.cardlogo span{
+    margin-left: 10px;
+}
+.cardHeading{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+.card{
+    max-width: 31%;
+    padding: 15px;
+    border: 1px solid lightgray;
+    background: white;
+    margin:15px;
+    border-radius: 20px;
+    
+}
+
+.cardFooter{
+    display: flex;
+    padding: 5px 20px;
+}
+.rightContent{
+    align-self: center;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(228, 72, 161);
+}
+.cardBody{
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(32, 31, 31);
+    padding: 5px 20px;
+}
+.main-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Tabs css 
+
+*/
+
+.button-tab1,.button-tab2{
+    font-size: 18px;
+    color: rgb(43, 41, 41);
+    background: none;
+    border: none;
+    border-bottom: 2px solid  rgb(43, 41, 41);
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+.button-tab1{
+    padding-right: 10px;
+}
+.active{
+    color: pink;
+    border-bottom:2px solid pink ;
+}
+.main-tabs{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
