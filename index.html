@@ -29,8 +29,10 @@
 
       <div class="menu-bar">
         <div class="menu-icon">
-          <i class="bx bx-menu icon HideMenu"> </i>
-          <li><button class="btnHide">Hide Menu</button></li>
+          <li class="hm">
+          <i class="bx bx-menu icon hm"> </i>
+          <li> <button class="btnHide">Hide Menu</button></li>
+         </li>
         </div>
         <div class="menu close">
           <ul class="menu-links">
@@ -65,6 +67,12 @@
         </div>
         <div class="support">
           <span class="text nav-text support">Support</span>
+          <li class=" down">
+            <a href="#">
+              <i class='bx bxs-bar-chart-square icon'></i>
+              <span class="text nav-text">Tickets <button class="ticketCount"><span id="cardcount"></span></button></span>
+            </a>
+          </li>
         </div>
       </div>
     </nav>
@@ -79,9 +87,12 @@
             <button class="button-tab1 tab active"  id="My_Projects" onclick="openTab('My_Projects')">My Projects(<span id="cardcount"></span>)</button>
             <button class="button-tab2 tab" id="Explore" onclick="openTab('Explore')">Explore</button>
           </div>
-<div>
-    <input type="text">
-</div>
+<div class="searchBox">
+   <div>
+    <i class='bx bx-search icon' ></i>
+    <input type="text"  id="searchbar" onkeyup="search_project()" placeholder="Search Projects" name="search">
+  </div>
+  </div>
     </div>
       <div class="main-body">
         <div class="card">
