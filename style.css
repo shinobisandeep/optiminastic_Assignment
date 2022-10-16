@@ -248,6 +248,7 @@ header .image-text .header-text{
     margin:15px;
     border-radius: 20px;
     
+    
 }
 
 .cardFooter{
@@ -268,6 +269,8 @@ header .image-text .header-text{
     padding: 5px 20px;
 }
 .main-body{
+    list-style-type: none;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
