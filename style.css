@@ -290,11 +290,9 @@ header .image-text .header-text{
    
 }
 #searchbar{
-    text-decoration: none;
+    
     border: hidden;
-    box-shadow: none;
-    background-color: white;
-    border-radius: 0;
+    outline: none;
    
 }
 .button-tab1,.button-tab2{
